@@ -7,4 +7,4 @@
       RSGPsimulator.m
       DSsimulator.m
       MCMCsimulator.m
-  ###  See [RSGP](https://github.com/wangjing0/RSGP) for fitting to the model
+  ###  See [RSGP](https://github.com/wangjing0/RSGP) for fitting time series to this model
