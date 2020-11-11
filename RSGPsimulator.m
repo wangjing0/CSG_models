@@ -43,11 +43,12 @@ Reward=nan(Nmax,1);
 rng(1); % reset the random number generator
 
 rand1=randn(Nmax,1);
+rand2=randn(Nmax,1);
 
 % updating trial by trial
 for i=1:Nmax
     Te(i) = mTe(i) +  rand1(i).*sqrt(sigTe(i) ) ;
-    Tp(i) = Te(i) + 1;
+    Tp(i) = (Te(i) + 1).* (1 + 0*rand2(i));
     Reward(i) = (abs(Te(i))< k_reward ).* (1 - abs(Te(i))./(k_reward));
     
     if dk_reward>0 % reward window on staircase
