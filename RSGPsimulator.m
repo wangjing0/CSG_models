@@ -6,10 +6,12 @@ sig_g   = sig*Wp;
 %l2      = 2; % correlation length, in unit of trials
 %Alpha   = 1;%[1, 0.5, 0.0];
 sig_g0  = sig0*Wp;
-dk_reward = 0.01;
 
+dk_reward = 0.01;
 k_reward = Wp;
-k_reward_min=0.05; k_reward_max=0.3;
+k_reward_min=0.05; 
+k_reward_max=0.3;
+acLength=ceil(2.5*max(l1,l2)); % max length of autocorrelation to be considered
 kernelfunction ='squaredexponential';
 
 % GP kernel
@@ -33,7 +35,6 @@ switch kernelfunction
         cov_g(logical(eye(Nmax)))=sig_g^2 + sig_g0^2;
 end
 
-acLength=ceil(2.5*max(l1,l2)); % max length of correlation to be considered
 
 Te=nan(Nmax,1);
 Tp=nan(Nmax,1);
