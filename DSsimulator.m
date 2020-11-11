@@ -9,8 +9,8 @@ else %default parameters
     We   = .01;
 end
 
-k_reward_min=0.01;
-k_reward_max = .3;
+k_reward_min=0.05;
+k_reward_max = 0.3;
 dk_reward = 0.01;
 
 Nmax = ntrials;
