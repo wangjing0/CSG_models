@@ -10,3 +10,8 @@
       DSsimulator.m
       MCMCsimulator.m
   ###  See [RSGP](https://github.com/wangjing0/RSGP) for fitting time series data to RSGP model
+  
+  ### Causal control experiment
+  <p align="center">
+  <img src="Fig5.png" height="400" >
+</p>
