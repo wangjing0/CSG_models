@@ -13,5 +13,5 @@
   
   ### Causal control experiment
   <p align="center">
-  <img src="Fig5.png" height="400" >
+  <img src="Figure4.png" height="400" >
 </p>
