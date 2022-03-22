@@ -1,6 +1,7 @@
 <p align="center">
   <img src="analysis.png" height="400" >
 </p>
+
 ###  "Reinforcement regulates timing variability in thalamus"
 
 ###  See [RSGP](https://github.com/wangjing0/RSGP) for fitting time series data to RSGP model
