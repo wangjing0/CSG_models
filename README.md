@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="analysis.png" height="400" >
+</p>
 ## For Figure 6 in "Reinforcement regulates timing variability in thalamus"
 
   ### Main
